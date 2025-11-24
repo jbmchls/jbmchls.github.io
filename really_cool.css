@@ -1,0 +1,41 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 21px;
+  text-shadow: 4px 4px 1px darkgrey;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 4px;
+  font-variant: small-caps;
+}
+
+div.main {
+  width: 800px; 
+  background: lightgrey;
+  padding: 50px;
+  border: 1px solid black;  
+  margin: auto;
+
+  font-family: Garamond, serif;
+  font-size: 1.25em;
+  
+}
+
+div.sub {
+  width: 800px; 
+  background: lightgreen;
+  padding: 50px;
+  border: 1px solid black;  
+  margin: auto;
+
+  font-family: Garamond, serif;
+  font-size: 1.25em;
+  
+}
