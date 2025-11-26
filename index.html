@@ -1,44 +1,76 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+<!-- STYLE SHEET -->
 <link rel="stylesheet" href="really_cool.css">
+
+<!-- ICON LIBRARY -->
+<script src="https://kit.fontawesome.com/ca0dadc712.js" crossorigin="anonymous"></script>
+
+<!-- ANIMATION LIBRARY -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+  </script>
 </head>
 <body>
 
-<h1>Jessie Browne-Michaels</h1>
-<h2>[ Data Science | Bioinformatics | Machine Learning ]</h2>
+<!-- HEADER -->
+<header class="video-header">
+  <video autoplay muted loop playsinline poster="fallback-image.jpg">
+    <source src="molecular.mp4" type="video/mp4">
+  </video>
+  <div class="header-content">
+    <h1>Jessie Browne-Michaels</h1>
+    <h2>[ Bioinformatics, Data Science & Engineering ]</h2>
+  </div>
+</header>
 
 <div class="main">
-<h3>Professional Statement</h3>
 
-<p>I am a computational scientist; I provide meaningful insights and attain research goals by designing and implementing end-to-end bioinformatics pipelines.
-I have six years industry experience in agriculture and three years experience researching neurodegenerative diseases (particularly Parkinson's) and traumatic brain injury. 
-Data modalities I have worked with include whole genome sequencing, RNA-seq, proteomics (targeted and untargeted), biomarker array assays, and clinical measures.
-I believe solutions to the complex health questions facing us today require multi-omic research techiniques, a hollistic approach to patient assessment, and personalized treatment and prevention plans. 
- </p>
+<table>
+<tr>
+  <td></td>
+  <td style="padding-left:40px;"><h3>Hello, I'm Jessie!</h3></td>
+<tr>
+  <td style="vertical-align:top;">
+  <img src="jbm_202302.jpg" width="275" height="275"></td>
+  <td style="padding-left:40px;">
+    I'm very curious, and I love a challenge. This combination of traits can lead to trouble, but it also facilitates discovery, which is why I chose to become a research scientist. 
+    <p>In my current role as a bioinformatics analyst, I provide meaningful insights and attain research goals by designing and implementing end-to-end bioinformatics pipelines.
+    <p>I have six years industry experience in agriculture and three years experience researching neurodegenerative diseases (particularly Parkinson's) and concussion. 
+    <p>Data modalities I have worked with include whole genome sequencing, RNA-seq, proteomics (targeted and untargeted), biomarker array assays, and clinical measures.
+    <p>I believe solutions to the complex health questions facing us today require multi-omic research techiniques, a hollistic approach to patient assessment, and personalized treatment and prevention plans. 
+  </td>
+</tr></table>
 </div>
 
-<h2>[ <a href="http://www.linkedin.com/in/jbmchls">LinkedIn</a> | 
-      <a href="http://www.github.com/jbmchls">GitHub</a> ]
-</h2>
+<h4>[ <a href="http://www.linkedin.com/in/jbmchls">LinkedIn</a> | 
+      <a href="http://www.github.com/jbmchls">GitHub</a> ]</h4>
 
-<div class="main">
+<i class="fas fa-star"></i>
 
-<p>
+<div class="sub" data-aos="fade-up">
 <h3>Portfolio Projects</h3>
 <ul>
 <li>Interactive web app: Historical Weather Analysis [ <a href="https://github.com/jbmchls/wthr_app/" target="_new">github</a> | <a href="https://jbmchls.shinyapps.io/wthr/" target="_new">shinyapps.io</a> ]</li>
 </ul>
-</p>
+</div>
 
-<p>
+<div class="sub" data-aos="fade-up">
 <h3>Publications</h3>
 <ul>
 <li><a href="https://patents.google.com/patent/US12426563B2/" target="_new">Hybrid corn plant and seed R3214</a></li>
 </ul>
-</p>
+</div>
 
-<p>
+<div class="sub" data-aos="fade-up">
+<center><i "fas fa-brain"></i></center>
 <h3>Current Research Projects</h3> 
 <ul>
 <li>Concussion Assessment, Research and Education (CARE) Consortium
@@ -50,11 +82,13 @@ I believe solutions to the complex health questions facing us today require mult
     <li>LRRK2 Cohort Consortium (LCC) Biomarker Data Compilation</li>
     <li>LCC Biomarker Statistical Analysis</li>
     <li>TREM2 Weighted Gene Co-expression Network Association (WGCNA) Study
-    <li>Differential gene expression analysis of RNA-seq counts and alpha-synuclein status
+    <li>Alpha-synuclein Differential Gene Expression Analysis
     </ul></li>
 </ul>
-</p>
+</div>
 
+<div class="footer">
+Banner video by <a href="https://www.pexels.com/video/lines-and-points-11371371/" target="_new">Crime Lab</a> 
 </div>
 </body>
 </html>

@@ -1,41 +1,100 @@
 body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: navy;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 21px;
-  text-shadow: 4px 4px 1px darkgrey;
-}
-
-h2 {
-  text-align: center;
-  letter-spacing: 4px;
-  font-variant: small-caps;
+  background-color: whitesmoke;
 }
 
 div.main {
-  width: 800px; 
-  background: lightgrey;
+  width: 1025px; 
+  background: whitesmoke;
   padding: 50px;
-  border: 1px solid black;  
+  border: 0px solid black;  
   margin: auto;
-
-  font-family: Garamond, serif;
-  font-size: 1.25em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.175em;
   
 }
 
 div.sub {
   width: 800px; 
-  background: lightgreen;
-  padding: 50px;
-  border: 1px solid black;  
+  background: whitesmoke;
+  padding: 25px;
+  border: 0px solid black;  
   margin: auto;
-
-  font-family: Garamond, serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 1.25em;
   
+}
+
+h1 {
+  color: deeppink;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 21px;
+  text-shadow:     
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+  font-size: 3em;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  font-variant: small-caps;
+  text-shadow:     
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+
+h3 {
+  color: mediumvioletred;
+  text-shadow: 2px 2px darkgrey;
+  letter-spacing: 5px;
+}
+
+h4 {
+  color: #333333;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 1.5em;
+}
+
+.video-header {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.video-header video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Clean crop */
+  top: 0;
+  left: 0;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+a {
+  color: seagreen;
+  text-decoration: none;
+}
+a:visited {
+  color: seagreen;
+  text-decoration: none;
+}
+a:hover { 
+  color: whitesmoke;
+  background-color: seagreen;
+  text-decoration: none;
 }
